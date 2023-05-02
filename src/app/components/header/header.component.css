@@ -1,0 +1,42 @@
+nav{
+    position:fixed;
+        height: 5vw;
+        width: 100vw;
+    }
+    
+    .logo-section{
+        padding: 1vw;
+        font-size: x-large;
+        display: inline-block;
+    }
+    .logo-section h1:hover{
+        font-size:xx-large;
+    }
+    .logo{
+        height: 2vw;
+        width: 2vw;
+    }
+    
+    .nav-option{
+        float :right;
+        
+        margin-top:2vw;
+        font-size: larger;
+       
+    }
+    .nav-option li{
+        display: inline;
+    }
+    .nav-option a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin-right: 5vw;
+    }
+    .nav-option a:hover{
+        color:rgb(33, 144, 144);
+    }
+    .nav-option a:active{
+        color:rgb(8, 234, 117);
+    }
+    
+    

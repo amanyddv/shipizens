@@ -1,0 +1,12 @@
+div{
+    background-color: black;
+    height: 30vh;
+    width: 100vw;
+}
+.company-name{
+   color: rgb(51, 53, 46);
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+.child{
+    margin-left:10vw ;
+    width: 40vw;
+}
+.res-child{
+        margin-left:5vw ;
+        width: 40vw;
+    
+}
+h2{
+    text-align: center;
+    color: rgb(42, 69, 69);
+    margin-bottom: 2vw;
+}
+p{
+    font-size: larger;
+
+}
+img{
+    width: 30vw;
+    height:max-content;
+    margin-left: 5vw;
+   
+}
+.parent{
+    display: flex;
+    height: 30vw;
+}
+
+.res-img{
+
+    width: 30vw;
+    height:max-content;
+    margin-left: 10vw;
+   
+}
