@@ -1,12 +1,68 @@
-div{
-    background-color: black;
-    height: 30vh;
-    width: 100vw;
+section{
+    display: flex;
+    color:white;
+
 }
-.company-name{
-   color: rgb(51, 53, 46);
-    display: inline-block;
-}
-h1{
+.bottom{
     text-align: center;
+    color: white;
+    background-color: black;
+}
+.box{
+    width: 25vw;
+    height: 25vw;
+    background-color: black;
+}
+.about-company {
+    margin: 4vw;
+}
+.about-company h1{
+    margin-bottom: 1vw;
+}
+.about-company p{
+    margin-bottom: 1vw;
+}
+.about-company ul{
+display: flex;
+justify-content: space-around;
+}
+
+.footer-link a{
+    text-decoration: none;
+
+    
+}
+.im1{
+  width: 5vw;
+  height: 5vw;
+  margin-right: 0.5vw;
+}
+.image-row{
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+section{
+    display: block;
+}
+.box{
+    width: 100vw;
+    height: max-content;
+    background-color: black;
+}
+.about-company {
+    padding:10vw;
+    margin: 0;
+}
+.im1{
+    width: 25vw;
+    height: 25vw;
+    margin-right: 0.5vw;
+  }
+  .bottom{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2vw;
+}
 }
