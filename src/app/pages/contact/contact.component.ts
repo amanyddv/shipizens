@@ -18,15 +18,15 @@ name=""
     alert("Please wait untill you receive a successfull message")
 
     this.service.send(contact)
-    //.subscribe((res)=>{
+    .subscribe((res)=>{
      
-    //     this.name =""
-    //     this.email =""
-    //     this.message =""
-    //     this.file =""
+        this.name =""
+        this.email =""
+        this.message =""
+        this.file =""
       
-    //   alert(res)
-    // })
+      alert(res)
+    })
    
     
     
