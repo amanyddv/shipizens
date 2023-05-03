@@ -1,0 +1,97 @@
+img{
+    width: 40vw;
+    min-height: max-content;
+    margin-right: 5vw;
+
+    
+}
+.banner{
+display: flex;
+padding-top: 5vw;
+justify-content:space-between;
+
+}
+.vision{
+    width: 30vw;
+    margin-left: 5vw;
+}
+h1{
+    margin-top: 8vw;
+    color: rgb(255, 154, 22);
+    font-size: 3vw;
+}
+h2{
+    
+    margin-top: 5vw;
+    color: rgb(204, 255, 0);
+    font-size: 2vw;
+    margin-bottom: 4vw;
+
+}
+p{
+    font-size: large;
+    padding: 0.5vw;
+    padding-top: 1vw;
+}
+.developer-detail{
+    
+display: flex;
+margin-left: 10vw;
+width: 80vw;
+margin-bottom:4vw;
+}
+.developer-img{
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    padding-left: 2vw;
+
+
+}
+.reverse-developer-img{
+    border-radius: 50%;
+    
+    width: 15vw;
+    height: 15vw;
+    padding-left: 2vw;
+
+
+}
+
+.about-developer{
+    background-color: rgb(3, 181, 181);
+    width: 40vw;
+    height: 13vw;
+    margin: 1vw;
+    margin-right: 0vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.reverse-about-developer{
+    background-color: rgb(3, 181, 181);
+    width: 50vw;
+    height: 13vw;
+    margin: 1vw;
+    margin-left: 0;
+    margin-right: 4vw;
+}
+
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent; 
+    
+    border-right:170px solid rgb(3, 181, 181); 
+    margin-top: 1vw;
+  }
+.arrow-right{
+    width: 0; 
+  height: 0; 
+  margin-top: 1vw;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  
+  border-left: 170px solid rgb(3, 181, 181);
+}
