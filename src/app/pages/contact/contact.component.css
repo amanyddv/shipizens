@@ -97,16 +97,22 @@ section{
     margin-top: 10vw;
 }
 input{
-    width: 90vw;
-    height: 6vw;
+    width: 80vw;
+    height: 8vw;
     border: '1px solid black'; 
     padding-left: 1vw;
     border-radius: 5px;
 
 }
+#spam{
+    color:rgb(101, 126, 140);
+    margin-bottom: 5vw;
+    font-size: large;
+
+}
 textarea{
-    width: 90vw;
-    height: 20vw;
+    width: 80vw;
+    height: 30vw;
     border: '1px solid black'; 
     padding-left: 1vw;
     padding-top: 0.5vw;
@@ -115,10 +121,20 @@ textarea{
 
 button{
     background-color: rgba(202, 253, 0, 1);
-    width: 20vw;
-    height: 6vw;
+    width: 30vw;
+    height: 8vw;
     border-radius: 6px;
 
     
+}
+h3{
+    color: rgb(239, 155, 71);
+    margin-bottom: 3vw;
+    
+
+}
+label{
+    display: flex;
+    margin-bottom: 3vw;
 }
 }
