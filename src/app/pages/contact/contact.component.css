@@ -67,3 +67,11 @@ button{
     padding-left: 1vw;
 
 } 
+img{
+    width: 2vw;
+    height: max-content;
+}
+label{
+    display: flex;
+    margin-bottom: 1vw;
+}
