@@ -23,7 +23,7 @@ h1{
 h2{
     
     margin-top: 5vw;
-    color: rgb(204, 255, 0);
+    color: rgb(9, 93, 3);
     font-size: 2vw;
     margin-bottom: 4vw;
 
@@ -126,5 +126,13 @@ margin-bottom:4vw;
             margin-left: auto;
             margin-right: auto;
             padding: 3vw;
+        }
+        h2{
+    
+            margin-top: 5vw;
+            color: rgb(9, 93, 3);
+            font-size: 6vw;
+            margin-bottom: 4vw;
+        
         }
 }
