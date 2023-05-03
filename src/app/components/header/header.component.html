@@ -6,6 +6,8 @@
   <ul class="nav-option">
     <li><a routerLink="">Home</a></li>
    <li> <a routerLink="Service">Service</a></li>
+   <li><a routerLink="Faqs">FAQs</a></li>
+
     <li><a routerLink="About">About</a></li>
     <li><a routerLink="Contact">Contact</a></li>
   </ul>
@@ -13,8 +15,8 @@
   <img src="assets/header/controls.png" class="toggle" alt="Menu"  (click)="toggleMenu()" [attr.aria-expanded]="menuVisible ? 'true' : 'false'" aria-controls="menu">
   <ul id="menu" [hidden]="!menuVisible">
     <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="Service">About</a></li>
-    <li><a routerLink="FAQs">FAQs</a></li>
+    <li><a routerLink="Service">Service</a></li>
+    <li><a routerLink="Faqs">FAQs</a></li>
     <li><a routerLink="About">About</a></li>
     <li><a routerLink="Contact">Contact</a></li>
   </ul>

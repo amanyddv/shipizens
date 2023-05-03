@@ -13,6 +13,7 @@ import { ServiceComponent } from './pages/service/service.component';
 import { ServiceService } from './service/service.service';
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { FaqsComponent } from './pages/faqs/faqs.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     AboutComponent,
     ServiceComponent,
+    FaqsComponent,
   ],
   imports: [
     BrowserModule,
