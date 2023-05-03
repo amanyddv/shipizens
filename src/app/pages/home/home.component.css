@@ -44,14 +44,28 @@ img{
 
     }
     .child{
-        margin-left:2vw ;
-        width: 40vw;
+        margin-left:3vw ;
+        width: 45vw;
     }
     .res-child{
-        margin-left:2vw ;
-        width: 40vw;
+        margin-left:5vw ;
+        width: 45vw;
     
 }
+img{
+    width: 50vw;
+    height:max-content;
+    margin-left: 5vw;
+   
+}
+.res-img{
+
+    width: 50vw;
+    height:max-content;
+    margin-left: 3vw;
+   
+}
+
    
    
 }
