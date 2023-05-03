@@ -43,6 +43,15 @@ img{
         margin-bottom: 10vh;        align-items:center;
 
     }
+    .child{
+        margin-left:2vw ;
+        width: 40vw;
+    }
+    .res-child{
+        margin-left:2vw ;
+        width: 40vw;
+    
+}
    
    
 }
