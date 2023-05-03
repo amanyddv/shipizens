@@ -95,3 +95,29 @@ margin-bottom:4vw;
   
   border-left: 170px solid rgb(3, 181, 181);
 }
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        display: flex;
+        padding-top: 10vw;
+        justify-content:space-between;
+
+        
+        }
+        .vision{
+            width: 90vw;
+            margin-left: 2vw;
+        }
+        h1{
+            margin-top: 4vw;
+            color: rgb(255, 154, 22);
+            font-size: 7vw;
+        }
+        img{
+            width: 40vw;
+            min-height: min-content;
+            margin-right: 2vw;
+        
+            
+        }
+}
