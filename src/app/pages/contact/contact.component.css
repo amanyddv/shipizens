@@ -97,7 +97,7 @@ section{
     margin-top: 10vw;
 }
 input{
-    width: 80vw;
+    width: 85vw;
     height: 8vw;
     border: '1px solid black'; 
     padding-left: 1vw;
@@ -111,7 +111,7 @@ input{
 
 }
 textarea{
-    width: 80vw;
+    width: 85vw;
     height: 30vw;
     border: '1px solid black'; 
     padding-left: 1vw;
@@ -136,5 +136,8 @@ h3{
 label{
     display: flex;
     margin-bottom: 3vw;
+}
+.status-1{
+    margin-bottom: 2vw;
 }
 }
