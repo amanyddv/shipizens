@@ -23,7 +23,7 @@ name=""
         this.name =""
         this.email =""
         this.message =""
-        this.file =""
+        this.subject =""
       
       alert(res)
     })
