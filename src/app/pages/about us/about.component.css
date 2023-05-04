@@ -74,6 +74,9 @@ h1{
     margin-bottom: 1vw;
 }
 
+.icon {
+    font-size: 30px;
+}
 @media only screen and (max-width: 768px) {
     .banner{
         display: block;
