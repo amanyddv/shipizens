@@ -1,0 +1,10 @@
+<section>
+    <div class="faqs" id="faqs">
+        <h2>FREQUENTLY ASKED QUESTIONS </h2>
+    
+        <div *ngFor="let faq of faqs;index as i">
+            <h4 (click)="onClick(i) ">{{faq.q}}</h4>
+            <h5 *ngIf="faq.state">{{faq.a}}</h5>
+        </div>
+        </div>
+</section>

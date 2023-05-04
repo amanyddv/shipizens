@@ -1,0 +1,31 @@
+section{
+    padding:5vw;
+    padding-top: 10vw;
+}
+.faqs{
+    background-color: yellow;
+    padding: 5vw;
+}
+h2{
+    color: green;
+    padding-bottom: 2vw;
+} 
+ 
+h4{
+    font-size: larger;
+    background-color:rgb(188, 188, 212);
+   
+padding: 1vw;
+border-style: solid; border-width:2px; border-color: #FFFFFF;}
+h4:hover{
+    background-color: rgb(71, 71, 82);;
+}
+
+h5{
+    font-size: larger;
+    background-color:rgb(211, 228, 137);
+    padding: 1vw;
+    border-style: solid; border-width:2px; border-color: #FFFFFF;}
+
+
+

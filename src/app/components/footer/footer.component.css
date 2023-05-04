@@ -1,6 +1,8 @@
 section{
     display: flex;
     color:white;
+    background-color: black;
+    
 
 }
 .bottom{
@@ -11,7 +13,7 @@ section{
 }
 .box{
     width: 25vw;
-    height: 25vw;
+    height: max-content;
     background-color: black;
 }
 .about-company {
