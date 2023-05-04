@@ -11,5 +11,5 @@ export class ServiceService {
 
   constructor(private http:HttpClient) { }
   send(contact:any){
-    return this.http.post<any>(this.url+"contact",contact)  }
+    return this.http.post<any>(this.local+"contact",contact)  }
 }

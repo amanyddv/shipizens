@@ -20,15 +20,8 @@ h1{
     color: rgb(255, 154, 22);
     font-size: 3vw;
 }
-h2{
-    
-    margin-top: 5vw;
-    color: rgb(9, 93, 3);
-    font-size: 2vw;
-    margin-bottom: 4vw;
 
-}
-p{
+.vision p{
     font-size: large;
     padding: 0.5vw;
     padding-top: 1vw;
@@ -36,63 +29,45 @@ p{
 .our-team-heading{
     margin-left: 10vw;
     margin-bottom: 5vw;
+    margin-top: 5vw;
+    color: rgb(9, 93, 3);
+    font-size: 2vw;
+    margin-bottom: 4vw;
 }
 .developer-detail{
     
-display: flex;
-margin-left: 10vw;
-width: 80vw;
-margin-bottom:4vw;
-}
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom:4vw;
+
+
+    }
+    .developer-detail > div{
+        width: max-content;
+
+
+    }
 .developer-img{
     border-radius: 50%;
     width: 15vw;
     height: 15vw;
 }
-.reverse-developer-img{
-    border-radius: 50%;
-    
-    width: 15vw;
-    height: 15vw;
-    padding-left: 2vw;
-
-
-}
-
 .about-developer{
-    background-color: rgb(17, 18, 18);
-   
-   
+    width: 15vw;
+}
+.about-developer ul{
     display: flex;
-    justify-content: space-between;
-
 }
-.reverse-about-developer{
-    background-color: rgb(3, 181, 181);
-    width: 50vw;
-    height: 13vw;
-    margin: 1vw;
-    margin-left: 0;
-    margin-right: 4vw;
+.about-developer a{
+    margin-right:1vw ;
 }
-
-.arrow-left {
-    width: 0; 
-    height: 0; 
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent; 
-    
-    border-right:170px solid rgb(3, 181, 181); 
-    margin-top: 1vw;
-  }
-.arrow-right{
-    width: 0; 
-  height: 0; 
-  margin-top: 1vw;
-  border-top: 100px solid transparent;
-  border-bottom: 100px solid transparent;
-  
-  border-left: 170px solid rgb(3, 181, 181);
+.about-developer h2{
+    text-align: center;
+    margin: 0.5vw;
+}
+.about-developer p{
+    text-align: justify;
+    margin-bottom: 1vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -112,7 +87,7 @@ margin-bottom:4vw;
             color: rgb(255, 154, 22);
             font-size: 7vw;
         }
-        p{
+        .vision p{
             font-size: large;
             padding: 2vw;
             padding-top: 1vw;
@@ -129,9 +104,50 @@ margin-bottom:4vw;
         h2{
     
             margin-top: 5vw;
-            color: rgb(9, 93, 3);
+            color: rgb(0, 0, 0);
             font-size: 6vw;
             margin-bottom: 4vw;
         
         }
+        .developer-detail{
+    
+            display: flex;
+            margin-bottom:4vw;
+            flex-direction: column;
+            align-items: center;
+
+            
+            }
+            .developer-img{
+                border-radius: 50%;
+                width: 60vw;
+                height: 60vw;
+            }
+            .about-developer{
+                width: 80vw;
+            }
+            .about-developer p{
+                text-align: justify;
+                margin-bottom: 3vw;
+                font-size: x-large;
+            }
+            .about-developer h2{
+                text-align: center;
+                margin: 1vw;
+                font-size: xx-large;
+            }
+            .developer-detail > div{
+                width: max-content;
+                margin-bottom: 4vw;
+        
+            }
+            .our-team-heading{
+                margin-left: 10vw;
+                margin-bottom: 5vw;
+                margin-top: 5vw;
+                color: rgb(9, 93, 3);
+                font-size: 6vw;
+                margin-bottom: 4vw;
+            }
+           
 }
