@@ -128,13 +128,13 @@ h1{
             }
             .about-developer p{
                 text-align: justify;
-                margin-bottom: 3vw;
-                font-size: x-large;
+                margin-bottom: 4vw;
+                font-size: larger;
             }
             .about-developer h2{
                 text-align: center;
                 margin: 1vw;
-                font-size: xx-large;
+                font-size: x-large;
             }
             .developer-detail > div{
                 width: max-content;
