@@ -1,0 +1,195 @@
+
+.sectionfirst {
+    margin-left: 6vw;
+    width: 90vw;
+    height: 28.5vw;
+    padding-top: 5vw;
+  }
+  .firstsecfirstdiv {
+    background-image: url(src/assets/ourservice/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .innerdiv {
+    height: 15vw;
+    width: 20vw;
+    background-color: white;
+    border-radius: 1vw;
+    position: relative;
+    left: 2.5vw;
+    top: 12vw;
+  }
+  .firstsec_seconddiv {
+    background-image: url(src/assets/ourservice/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .firstsec_thirddiv {
+    background-image: url(src/assets/ourservice/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+
+  #sec1 {
+    float: left;
+    margin-left: 3vw;
+  }
+  .sectionsecond{
+    height: 26.5vw;
+    margin-top: 4vw;
+    margin-left: 6vw;
+  }
+  .secondsec_firstdiv {
+    background-image: url(src/assets/ourservice/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .secondsec_seconddiv {
+    background-image: url(src/assets/ourservice/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .secondsec_thirddiv {
+    background-image: url(src/assets/ourservice/image6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .innerdiv2 {
+    height: 15vw;
+    width: 20vw;
+    background-color: white;
+    border-radius: 1vw;
+    position: relative;
+    left: 2.5vw;
+    top: 10vw;
+  }
+  .head {
+    padding-top: 3.4vw;
+    padding-left: 2vw;
+    color:rgb(102, 0, 0);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .innerdiv:hover{
+      background-color: rgb(240, 196, 53);
+      color:azure;
+  }
+  .innerdiv2:hover{
+      background-color: rgb(240, 196, 53);
+      color:azure;
+  }
+  .icons {
+    background-color: aliceblue;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 4vw;
+    position: relative;
+    top: -5.4vw;
+    left: 15vw;
+  }
+  .icons2 {
+    background-color: aliceblue;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 4vw;
+    position: relative;
+    top: -8vw;
+    left: 15vw;
+  }
+  #iconimg1 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+    position: relative;
+    left: 0.5vw;
+    top: 0.5vw;
+    background-image: url(src/assets/ourservice/icon1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #iconimg2 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+    position: relative;
+    left: 0.5vw;
+    top: 0.5vw;
+    background-image: url(src/assets/ourservice/icon2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #iconimg3 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+    position: relative;
+    left: 0.5vw;
+    top: 0.5vw;
+    background-image: url(src/assets/ourservice/icon3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #iconimg4 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+    position: relative;
+    left: 0.5vw;
+    top: 0.5vw;
+    background-image: url(src/assets/ourservice/icon5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #iconimg5 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+    position: relative;
+    left: 0.5vw;
+    top: 0.5vw;
+    background-image: url(src/assets/ourservice/icon4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #iconimg6 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 1vw;
+    position: relative;
+    left: 0.5vw;
+    top: 0.5vw;
+    background-image: url(src/assets/ourservice/icon6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .para1 {
+  padding: 1vw;
+  color: rgb(15, 15, 10);
+  text-align: center;
+  color:rgb(84, 85, 84);
+
+  }

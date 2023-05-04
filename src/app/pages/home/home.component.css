@@ -24,7 +24,9 @@ img{
 }
 .parent{
     display: flex;
-    height: 30vw;
+    height: max-content;
+    align-items:center;
+    padding-bottom: 5vw;
 }
 
 .res-img{
