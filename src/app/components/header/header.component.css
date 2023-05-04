@@ -13,8 +13,8 @@ nav{
         font-size:xx-large;
     }
     .logo{
-        height: 2vw;
-        width: 2vw;
+        height: min-content;
+        width: 35px;
     }
     
     .nav-option{
@@ -42,10 +42,7 @@ nav{
         display: none;
     }
     @media only screen and (max-width: 768px) {
-        .logo{
-            height: 7vw;
-            width: max-content;
-        }
+        
         .toggle{
             display: block;
             width: 7vw;
