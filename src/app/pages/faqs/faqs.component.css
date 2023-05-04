@@ -68,5 +68,8 @@ h5{
     font-style: italic;
     color: #676e6f;
     border-style: solid; border-width:2px; border-color: #FFFFFF;}
-
+    h2{
+        color: green;
+        padding-bottom: 5vw;
+    } 
 }
