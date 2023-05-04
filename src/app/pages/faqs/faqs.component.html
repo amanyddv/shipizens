@@ -3,8 +3,13 @@
         <h2>FREQUENTLY ASKED QUESTIONS </h2>
     
         <div *ngFor="let faq of faqs;index as i">
-            <h4 (click)="onClick(i) ">{{faq.q}}</h4>
-            <h5 *ngIf="faq.state">{{faq.a}}</h5>
+            <h4 (click)="onClick(i) "><label>Qns: </label><p>{{faq.q}}</p></h4>
+            <h5 *ngIf="faq.state"><label>Ans: </label><span><p>{{faq.a}}</p>
+                <div *ngFor="let element of faq.step;" class="step">
+                    {{element}}
+                </div>
+            </span>
+            </h5>
         </div>
         </div>
 </section>
