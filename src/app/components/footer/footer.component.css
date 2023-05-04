@@ -47,7 +47,7 @@ justify-content: space-around;
 @media only screen and (max-width: 768px) {
 section{
     display: block;
-    margin-bottom:0 px;
+    bottom:0 px;
 }
 .box{
     width: 100vw;
