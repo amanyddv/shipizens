@@ -33,6 +33,10 @@ p{
     padding: 0.5vw;
     padding-top: 1vw;
 }
+.our-team-heading{
+    margin-left: 10vw;
+    margin-bottom: 5vw;
+}
 .developer-detail{
     
 display: flex;
@@ -44,9 +48,6 @@ margin-bottom:4vw;
     border-radius: 50%;
     width: 15vw;
     height: 15vw;
-    padding-left: 2vw;
-
-
 }
 .reverse-developer-img{
     border-radius: 50%;
@@ -59,11 +60,9 @@ margin-bottom:4vw;
 }
 
 .about-developer{
-    background-color: rgb(3, 181, 181);
-    width: 40vw;
-    height: 13vw;
-    margin: 1vw;
-    margin-right: 0vw;
+    background-color: rgb(17, 18, 18);
+   
+   
     display: flex;
     justify-content: space-between;
 
