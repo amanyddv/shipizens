@@ -1,74 +1,4 @@
-
-.sectionfirst {
-display: flex;  
-  width: 100vw;
-    height: max-content;
-    justify-content: space-around;
-    padding-bottom: 20vw;
-  }
-  .firstsecfirstdiv {
-    background-image: url(src/assets/ourservice/image1.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 25vw;
-    height: 20vw;
-
-    border-radius: 1vw;
-  }
-  .innerdiv {
-    height: max-content;
-    width: 20vw;
-    background-color: white;
-    border-radius: 1vw;
-    position: relative;
-    left: 2.5vw;
-    top: 15vw;
-    margin-bottom: 10px;
-  }
-  .firstsec_seconddiv {
-    background-image: url(src/assets/ourservice/image2.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 20vw;
-    width: 25vw;
-    border-radius: 1vw;
-  }
-  .firstsec_thirddiv {
-    background-image: url(src/assets/ourservice/image3.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 20vw;
-    width: 25vw;
-    border-radius: 1vw;
-  }
-
-  
-  .sectionsecond{
-    display: flex;
-    justify-content: space-around;
-    height: 26.5vw;
-    margin-top: 4vw;
-    width: 100vw;
-    margin-top: 10vw;
-    padding-bottom: 25vw;
-  }
-  .secondsec_firstdiv {
-    background-image: url(src/assets/ourservice/image4.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 20vw;
-    width: 25vw;
-    border-radius: 1vw;
-  }
-  .secondsec_seconddiv {
-    background-image: url(src/assets/ourservice/image5.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 20vw;
-    width: 25vw;
-    border-radius: 1vw;
-  }
-  .secondsec_thirddiv {
+.secondsec_thirddiv {
     background-image: url(src/assets/ourservice/image6.jpg);
     background-position: center;
     background-size: cover;
@@ -189,11 +119,4 @@ display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .para1 {
-  padding: 1vw;
-  color: rgb(15, 15, 10);
-  text-align: center;
-  color:rgb(84, 85, 84);
-
   }
