@@ -126,5 +126,10 @@ nav{
           [hidden] {
             display: none !important;
           }
-          
+          nav{
+            position:fixed;
+                height: 15vw;
+                width: 100vw;
+                z-index: 9999;
+            }
     }
