@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener  } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -10,5 +10,17 @@ export class HeaderComponent {
 
   toggleMenu() {
     this.menuVisible = !this.menuVisible;
+  }
+
+  isScrolled = false;
+
+  @HostListener('window:scroll', [])
+  onScroll(): void {
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    if (scrollPosition > 100) {
+      this.isScrolled = true;
+    } else {
+      this.isScrolled = false;
+    }
   }
 }
