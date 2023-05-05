@@ -120,3 +120,27 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .secondsec_firstdiv {
+    background-image: url(src/assets/ourservice/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .secondsec_seconddiv {
+    background-image: url(src/assets/ourservice/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .para1 {
+  padding: 1vw;
+  color: rgb(15, 15, 10);
+  text-align: center;
+  color:rgb(84, 85, 84);
+
+  }
+
