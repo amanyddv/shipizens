@@ -4,7 +4,7 @@ display: flex;
   width: 100vw;
     height: max-content;
     justify-content: space-around;
-    padding-bottom: 20vw;
+    padding-bottom: 20vh;
   }
   .firstsecfirstdiv {
     background-image: url(src/assets/ourservice/image1.jpg);
@@ -41,8 +41,39 @@ display: flex;
     width: 25vw;
     border-radius: 1vw;
   }
-
-  
+  .secondsec_thirddiv {
+    background-image: url(src/assets/ourservice/image6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .innerdiv2 {
+    height: max-content;
+    width: 20vw;
+    background-color: white;
+    border-radius: 1vw;
+    position: relative;
+    left: 2.5vw;
+    top: 15vw;
+  }
+  .head {
+    padding-top: 3.4vw;
+    padding-left: 2vw;
+    color:rgb(102, 0, 0);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .innerdiv:hover{
+      background-color: rgb(240, 196, 53);
+      color:azure;
+  }
+  .innerdiv2:hover{
+      background-color: rgb(240, 196, 53);
+      color:azure;
+  }
+    
   .sectionsecond{
     display: flex;
     justify-content: space-around;
@@ -52,3 +83,30 @@ display: flex;
     margin-top: 10vw;
     padding-bottom: 25vw;
   }
+
+  
+  
+  .secondsec_firstdiv {
+    background-image: url(src/assets/ourservice/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .secondsec_seconddiv {
+    background-image: url(src/assets/ourservice/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .para1 {
+  padding: 1vw;
+  text-align: center;
+  color:rgb(84, 85, 84);
+
+  }
+
+

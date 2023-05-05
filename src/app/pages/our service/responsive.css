@@ -1,0 +1,95 @@
+@media only screen and (max-width: 768px) {
+    .sectionfirst {
+        display: block;  
+          width: 80vw;
+            height: max-content;
+            justify-content: space-around;
+            margin: 10vw;
+            
+          }
+          .firstsecfirstdiv {
+            background-position: center;
+            background-size: cover;
+            width: 80vw;
+            height: 50vw;
+            margin-bottom: 15vh;
+
+            border-radius: 1vw;
+          } 
+          .firstsec_seconddiv {
+            background-position: center;
+            background-size: cover;
+            height: 50vw;
+            width: 80vw;
+            border-radius: 1vw;
+            margin-bottom: 15vh;
+
+          } 
+          .firstsec_thirddiv {
+            background-image: url(src/assets/ourservice/image3.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 50vw;
+            width: 80vw;
+            border-radius: 1vw;
+
+          }  
+          .innerdiv {
+            height: max-content;
+            width: 60vw;
+            background-color: white;
+            border-radius: 1vw;
+            position: relative;
+            left: 10vw;
+            top: 40vw;
+          }
+          .innerdiv2 {
+            height: max-content;
+            width: 60vw;
+            background-color: white;
+            border-radius: 1vw;
+            position: relative;
+            left: 10vw;
+            top: 40vw;
+
+          }     
+          .sectionsecond{
+            display: block;
+            justify-content: space-around;
+            height: max-content;
+            margin-top: 4vw;
+            width: 100vw;
+            margin: 10vw;
+            padding-bottom: 25vw;
+          }
+          .secondsec_firstdiv {
+            background-image: url(src/assets/ourservice/image4.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 50vw;
+            width: 80vw;
+            border-radius: 1vw;
+            margin-bottom: 15vh;
+
+          }
+          .secondsec_seconddiv {
+            background-image: url(src/assets/ourservice/image5.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 50vw;
+            width: 80vw;
+            border-radius: 1vw;
+            margin-bottom: 15vh;
+
+          }
+          .secondsec_thirddiv {
+            background-image: url(src/assets/ourservice/image6.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 50vw;
+            width: 80vw;
+            border-radius: 1vw;
+            margin-bottom: 15vh;
+
+          }
+}
