@@ -3,7 +3,7 @@
 display: flex;  
   width: 100vw;
     height: max-content;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 20vw;
   }
   .firstsecfirstdiv {
