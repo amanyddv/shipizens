@@ -128,7 +128,7 @@ nav{
           }
           nav{
             position:fixed;
-                height: 15vw;
+                height: 14vw;
                 width: 100vw;
                 z-index: 9999;
             }
