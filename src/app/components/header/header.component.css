@@ -5,16 +5,20 @@ nav{
     }
     
     .logo-section{
-        padding: 1vw;
         font-size: x-large;
         display: inline-block;
+    }
+    .logo-section div{
+      display: flex;
+    }
+    .logo-section h1{
+      margin-top: 2vw;
     }
     .logo-section h1:hover{
         font-size:xx-large;
     }
     .logo{
-        height: min-content;
-        width: 35px;
+        width: 10vw;
     }
     
     .nav-option{

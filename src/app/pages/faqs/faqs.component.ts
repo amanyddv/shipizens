@@ -16,7 +16,7 @@ export class FaqsComponent {
       state: false, q: " How are logistics and shipping websites different?      ", a: " Logistics and shipping websites are related but serve different purposes.      Websites dedicated to logistics offer data and tools for managing the complete supply chain, including distribution, warehousing, inventory control, and transportation.  On the other hand, shipping websites are mostly concerned with the transportation of goods from one place to another       "
     },
     {
-      state: false, q: " What are the key benefits of a shipping website over traditional means of shipping?      ", a: " The major benefits of using a shipping website over conventional shipping include the following:" ,step:["1. Wider Reach2. Better Customer Service","  3. Cost-Effective 4. Hassle-Free Process",  " 5. Better Marketing Opportunities","  6. Fail-safe and Secure Operation"          ]
+      state: false, q: " What are the key benefits of a shipping website over traditional means of shipping?      ", a: " The major benefits of using a shipping website over conventional shipping include the following:" ,step:["1. Wider Reach","2. Better Customer Service","  3. Cost-Effective ","4. Hassle-Free Process",  " 5. Better Marketing Opportunities","  6. Fail-safe and Secure Operation"          ]
 
     },
     {
