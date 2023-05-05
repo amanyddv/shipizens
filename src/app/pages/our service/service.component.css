@@ -42,10 +42,7 @@ display: flex;
     border-radius: 1vw;
   }
 
-  #sec1 {
-    float: left;
-    margin-left: 3vw;
-  }
+  
   .sectionsecond{
     display: flex;
     justify-content: space-evenly;
