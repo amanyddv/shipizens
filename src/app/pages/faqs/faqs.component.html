@@ -3,7 +3,7 @@
         <hr>
 
         <div *ngFor="let faq of faqs;index as i">
-            <h4 (click)="onClick(i) "><label>Qns: </label><p>{{faq.q}}</p> <img src="assets/faqs/downward.png"></h4>
+            <h4 (click)="onClick(i) "><span class="ques" ><label>Qns: </label><p class="ques">{{faq.q}}</p></span> <img src="assets/faqs/downward.png"></h4>
             <hr>
 
             <h5 *ngIf="faq.state"><label>Ans: </label><span><p>{{faq.a}}</p>
