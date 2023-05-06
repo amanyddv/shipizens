@@ -16,8 +16,8 @@ h2{
     
 } 
 section img{
-    width: 2vw;
-    height: 1.5vw;
+    width: 30px;
+    height: 15px;
 }
 
  .ques{
@@ -93,5 +93,8 @@ padding: 2vw;}
         padding:5vw;
         padding-top: 15vw;
         padding-bottom: 15vw;
+    }
+    .ques{
+        width: 75vw;
     }
 }
