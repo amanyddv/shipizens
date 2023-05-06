@@ -7,27 +7,39 @@ section{
     padding: 5vw;
 }
 h2{
-    color: green;
-    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: rgb(42, 69, 69);
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    height: 14vw;
+    
 } 
+section img{
+    width: 2vw;
+    height: 1.5vw;
+}
+
  
 h4{
     display: flex;
     font-size: larger;
-    background-color:rgb(188, 188, 212);
+    font-weight:700;
    
 padding: 1vw;
-border-style: solid; border-width:2px; border-color: #FFFFFF;}
+}
 h4:hover{
-    background-color: rgb(71, 71, 82);
+    background-color: rgb(255, 255, 255);
 }
 
 h5{
     display: flex;
     font-size: larger;
-    background-color:rgb(211, 228, 137);
+    background-color:rgb(212, 236, 201);
     padding: 1vw;
-    border-style: solid; border-width:2px; border-color: #FFFFFF;}
+    font-weight: 100;
+    }
+    
 
 
 .step{
@@ -45,7 +57,6 @@ label{
         padding-top: 15vw;
     }
     .faqs{
-        background-color: yellow;
         padding: 5vw;
     }
     .step{
@@ -56,20 +67,29 @@ label{
 h4{
     display: flex;
     font-size: larger;
-    background-color:rgb(188, 188, 212);
    
-padding: 3vw;
-border-style: solid; border-width:2px; border-color: #FFFFFF;}
+
+
+font-weight:700;
+
+padding: 2vw;}
 h5{
     display: flex;
     font-size: larger;
-    background-color:rgb(211, 228, 137);
-    padding: 3vw;
-    font-style: italic;
-    color: #676e6f;
-    border-style: solid; border-width:2px; border-color: #FFFFFF;}
+padding: 2vw;}
+ 
     h2{
-        color: green;
-        padding-bottom: 5vw;
+        padding-top: 4vw;
+        color: rgb(42, 69, 69);
+        font-size: x-large;
+        text-align: center;
+        width: 100%;
+        height: 20vw;
+        
     } 
+    section{
+        padding:5vw;
+        padding-top: 15vw;
+        padding-bottom: 15vw;
+    }
 }

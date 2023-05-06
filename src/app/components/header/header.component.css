@@ -5,7 +5,11 @@ nav{
         z-index: 9999;
 
     }
-    
+    .logo-section {
+      font-style: italic;
+      font-weight: 300;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
     .logo-section{
         font-size: x-large;
         display: inline-block;
