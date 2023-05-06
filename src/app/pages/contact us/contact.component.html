@@ -1,22 +1,29 @@
 <app-banner></app-banner>
 
-<section>   
+<section>
     <div class="detail-section">
         <h3>Get in touch</h3>
-        <p id="status-1">Feel free to talk to our representative at any time you please use our contact form on our website or one of our contact numbers.</p>
-        <p id="spam">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a convallis ligula. Integer tincidunt ligula a purus volutpat gravida. Proin sollicitudin bibendum nibh. Suspendisse potenti. Aliquam sed erat molestie, pretium nisl nec, aliquam ipsum. Nam quis aliquam est, suscipit suscipit ipsum.</p>
-        <label><img src="assets/contact/location (1).png" > <p class="contact-detal">Gangadeep colony Jhunsi prayagraj</p></label>
-        <label for=""><img src="assets/contact/phone-call.png" alt=""><p class="contact-detal">+91 9129188506, +91 9555255179</p></label>
-        <label for=""><img src="assets/contact/email (1).png" alt=""><p class="contact-detal">Shipizens@gmail.com</p></label>
+        <p id="status-1">Feel free to talk to our representative at any time you please use our contact form on our
+            website or one of our contact numbers.</p>
+        <p id="spam"></p>
+        <label><img src="assets/contact/location (1).png">
+            <p class="contact-detal">Gangadeep colony Jhunsi prayagraj</p>
+        </label>
+        <label for=""><img src="assets/contact/phone-call.png" alt="">
+            <p class="contact-detal">+91 9129188506, +91 9555255179</p>
+        </label>
+        <label for=""><img src="assets/contact/email (1).png" alt="">
+            <p class="contact-detal">Shipizens@gmail.com</p>
+        </label>
     </div>
-    <form class='user-detail-input'  #contact="ngForm" (ngSubmit)="send(contact.value)">
+    <form class='user-detail-input' #contact="ngForm" (ngSubmit)="send(contact.value)">
 
         <h1>Contact us</h1><br />
         <input type="text" placeholder='Name*' name="name" [(ngModel)]="name" />
         <br /><br />
-        <input type="text" placeholder='Email*'name="email"  [(ngModel)]="email" /><br /><br />
+        <input type="text" placeholder='Email*' name="email" [(ngModel)]="email" /><br /><br />
         <input type="text" placeholder='Subject*' name="subject" [(ngModel)]="subject" /><br /><br />
-        <textarea placeholder='Message*' name="message" [(ngModel)]="message" ></textarea><br /><br />
-        <button >Submit</button>
+        <textarea placeholder='Message*' name="message" [(ngModel)]="message"></textarea><br /><br />
+        <button>Submit</button>
     </form>
 </section>
