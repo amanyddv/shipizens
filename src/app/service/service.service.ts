@@ -2,14 +2,12 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable({ providedIn: 'root'})
 export class ServiceService {
   local = "http://localhost:7000/"
   url = "https://shipizens-api.vercel.app/"
 
   constructor(private http:HttpClient) { }
   send(contact:any){
-    return this.http.post<any>(this.local+"contact",contact)  }
+    return this.http.post<any>(this.url+"contact",contact)  }
 }
