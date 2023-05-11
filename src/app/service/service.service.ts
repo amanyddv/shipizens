@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 
 @Injectable({ providedIn: 'root'})
+
 export class ServiceService {
   local = "http://localhost:7000/"
   url = "https://shipizens-api.vercel.app/"

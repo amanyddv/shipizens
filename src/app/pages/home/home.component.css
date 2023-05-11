@@ -41,36 +41,39 @@ img{
    
 }
 
+
 @media only screen and (max-width: 768px) {
     .parent{
         display: flex;
         height: max-content;
         font-size: small;
         margin-bottom: 10vh;        align-items:center;
+       flex-direction:  column;
 
+    }
+    .res-parent{
+        display: flex;
+        flex-direction: column-reverse;
     }
     .child{
         margin-left:3vw ;
-        width: 45vw;
+        width: 90vw;
     }
     .res-child{
         margin-left:2vw ;
-        width: 45vw;
-        margin-right: 1vw;
+        width: 90vw;
     
 }
 img{
     width: 45vw;
     height:max-content;
-    margin-left: 2vw;
    
 }
 .res-img{
 
     width: 45vw;
     height:max-content;
-    margin-left: 3vw;
-    margin-right: 1vw;
+   
    
 }
 p{

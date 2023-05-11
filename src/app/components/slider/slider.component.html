@@ -1,0 +1,9 @@
+
+<div class="carousel-container">
+    <div class="carousel-images" [style.transform]="'translateX(' + currentIndex * -100 + '%)'">
+      <div class="carousel-image" *ngFor="let image of images">
+        <img src="assets/slider/{{ image }}">
+      </div>
+    </div>
+  </div>
+  
