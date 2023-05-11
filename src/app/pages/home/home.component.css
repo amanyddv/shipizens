@@ -56,11 +56,11 @@ img{
         flex-direction: column-reverse;
     }
     .child{
-        margin-left:3vw ;
+        margin-left:2vw ;
         width: 85vw;
     }
     .res-child{
-        margin-left:2vw ;
+        margin-left:1vw ;
         width: 85vw;        
 
     
