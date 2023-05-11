@@ -60,9 +60,10 @@ display: flex;
   }
   .head {
     padding-top: 3.4vw;
-    padding-left: 2vw;
+    
     color:rgb(102, 0, 0);
     font-size: larger;
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .innerdiv:hover{
