@@ -22,12 +22,12 @@ section img{
 
  .ques{
     display: flex;
-    color: rgb(63, 62, 62);
+    color: rgb(92, 91, 91);
 
  }
  .ques label{
-    color: rgb(63, 62, 62);
- }
+    color: rgb(92, 91, 91);
+}
 h4{
     display: flex;
     font-size: larger;
@@ -104,10 +104,10 @@ padding: 2vw;}
     }
     .ques{
      
-        color: rgb(63, 62, 62);
+        color: rgb(92, 91, 91);
     
      }
      .ques label{
-        color: rgb(63, 62, 62);
+        color: rgb(92, 91, 91);
      }
 }
