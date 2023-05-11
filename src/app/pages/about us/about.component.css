@@ -97,16 +97,16 @@ h1{
         .vision p{
             font-size: large;
             padding: 2vw;
-            padding-top: 1vw;
+            padding-top: 2vw;
         }
         img{
-            width: 50vw;
+            width: 70vw;
             min-height: min-content;
             margin-right: 2vw;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            padding: 3vw;
+            padding: 5vw;
         }
         h2{
     
