@@ -102,4 +102,12 @@ padding: 2vw;}
     .ques{
         width: 75vw;
     }
+    .ques{
+     
+        color: rgb(63, 62, 62);
+    
+     }
+     .ques label{
+        color: rgb(63, 62, 62);
+     }
 }
