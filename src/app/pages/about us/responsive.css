@@ -1,0 +1,94 @@
+
+@media only screen and (max-width: 768px) {
+    .banner{
+        display: block;
+        padding-top: 10vw;
+        justify-content:space-between;
+
+        
+        }
+        .vision{
+            width: 85vw;
+            margin-left: 7vw;
+        }
+        h1{
+            margin-top: 4vw;
+            color: rgb(255, 154, 22);
+            font-size: 7vw;
+        }
+        .vision p{
+            font-size: large;
+            padding: 2vw;
+            padding-top: 2vw;
+        }
+        img{
+            width: 70vw;
+            min-height: min-content;
+            margin-right: 2vw;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5vw;
+        }
+        h2{
+    
+            margin-top: 5vw;
+            color: rgb(0, 0, 0);
+            font-size: 6vw;
+            margin-bottom: 4vw;
+        
+        }
+        .developer-detail{
+    
+            display: flex;
+            margin-bottom:4vw;
+            flex-direction: column;
+            align-items: center;
+
+            
+            }
+            .developer-img{
+                border-radius: 50%;
+                width: 60vw;
+                height: 60vw;
+            }
+            .about-developer{
+                width: 80vw;
+            }
+            .about-developer p{
+                text-align: justify;
+                margin-bottom: 4vw;
+                font-size: larger;
+            }
+            .about-developer h2{
+                text-align: center;
+                margin: 1vw;
+                font-size: x-large;
+            }
+            .developer-detail > div{
+                width: max-content;
+                margin-bottom: 4vw;
+        
+            }
+            .our-team-heading{
+                margin-left: 10vw;
+                margin-bottom: 5vw;
+                margin-top: 5vw;
+                color: rgb(9, 93, 3);
+                font-size: 6vw;
+                margin-bottom: 4vw;
+            }
+            .about-developer a{
+                margin-right:3vw ;
+            }
+            .cityimages img{
+                margin-left: 0;
+                padding-left: 0;
+                padding-bottom: 4px;
+            }
+           
+}
+.cityimages img{
+    width: 100%;
+    height:max-content;
+}

@@ -15,6 +15,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { FaqsComponent } from './pages/faqs/faqs.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { AnimatedMessageComponent } from './components/animated-message/animated-message.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SliderComponent } from './components/slider/slider.component';
     ServiceComponent,
     FaqsComponent,
     SliderComponent,
+    AnimatedMessageComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,43 @@
+
+@media only screen and (max-width: 768px) {
+    .parent{
+        display: flex;
+        height: max-content;
+        font-size: small;
+        margin-bottom: 10vh;        align-items:center;
+       flex-direction:  column;
+
+    }
+    .res-parent{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .child{
+        margin-left:2vw ;
+        width: 85vw;
+    }
+    .res-child{
+        margin-left:1vw ;
+        width: 85vw;        
+
+    
+}
+img{
+    width: 70vw;
+    height:max-content;margin-top:20px;
+   
+}
+.res-img{
+
+    width: 70vw;
+    height:max-content;margin-top:20px;
+   
+   
+}
+p{
+    font-size: small;
+}
+
+   
+   
+}
