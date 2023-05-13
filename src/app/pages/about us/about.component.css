@@ -159,5 +159,14 @@ h1{
             .about-developer a{
                 margin-right:3vw ;
             }
+            .cityimages img{
+                margin-left: 0;
+                padding-left: 0;
+                padding-bottom: 4px;
+            }
            
+}
+.cityimages img{
+    width: 100%;
+    height:max-content;
 }
