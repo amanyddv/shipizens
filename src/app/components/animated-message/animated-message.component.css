@@ -1,7 +1,7 @@
 section { 
-    background: #d38a2b;
+    background: #009688;
     overflow: hidden;
-    height:300px ;
+    height: 300px;
     font-family: 'Open Sans', sans-serif;
   }
   .loop-wrapper {
@@ -21,12 +21,12 @@ section {
     width: 2px;
     height: 2px;
     box-shadow: 
-      0 0 0 50px #ff8605,
-      60px 50px 0 70px #ff8605,
-      90px 90px 0 50px #ff8605,
-      250px 250px 0 50px #ff8605,
-      290px 320px 0 50px #ff8605,
-      320px 400px 0 50px #f78710
+      0 0 0 50px #4DB6AC,
+      60px 50px 0 70px #4DB6AC,
+      90px 90px 0 50px #4DB6AC,
+      250px 250px 0 50px #4DB6AC,
+      290px 320px 0 50px #4DB6AC,
+      320px 400px 0 50px #4DB6AC
       ;
     transform: rotate(130deg);
     animation: mtn 20s linear infinite;
@@ -39,12 +39,12 @@ section {
     border-radius: 50%;
     height: 20px;
     box-shadow: 
-      0 0 0 50px #ff8605,
-      -20px 0 0 20px #ff8605,
-      -90px 0 0 50px #ff8605,
-      250px 0 0 50px #ff8605,
-      290px 0 0 50px #ff8605,
-      620px 0 0 50px #ff8605;
+      0 0 0 50px #4DB6AC,
+      -20px 0 0 20px #4DB6AC,
+      -90px 0 0 50px #4DB6AC,
+      250px 0 0 50px #4DB6AC,
+      290px 0 0 50px #4DB6AC,
+      620px 0 0 50px #4DB6AC;
     animation: hill 4s 2s linear infinite;
   }
   .tree, .tree:nth-child(2), .tree:nth-child(3) {
@@ -70,7 +70,7 @@ section {
     bottom: 0px;
     right: 50%;
     position: absolute;
-    background: #9a1616;
+    background: #eee;
   }
   .truck {
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/130015/truck.svg) no-repeat;
