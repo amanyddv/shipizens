@@ -14,10 +14,10 @@
   
   <img src="assets/header/controls.png" class="toggle" alt="Menu"  (click)="toggleMenu()" [attr.aria-expanded]="menuVisible ? 'true' : 'false'" aria-controls="menu">
   <ul id="menu" [hidden]="!menuVisible">
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="Service">Our service</a></li>
-    <li><a routerLink="Faqs">FAQs</a></li>
-    <li><a routerLink="About">About us</a></li>
-    <li><a routerLink="Contact">Contact us</a></li>
+    <li><a routerLink="/" (click)="toggleMenu()">Home</a></li>
+    <li><a routerLink="Service" (click)="toggleMenu()">Our service</a></li>
+    <li><a routerLink="Faqs" (click)="toggleMenu()">FAQs</a></li>
+    <li><a routerLink="About" (click)="toggleMenu()">About us</a></li>
+    <li><a routerLink="Contact" (click)="toggleMenu()">Contact us</a></li>
   </ul>
 </nav>
