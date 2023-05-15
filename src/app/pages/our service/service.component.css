@@ -1,7 +1,7 @@
 
 .sectionfirst {
 display: flex;  
-  width: 100vw;
+  width: 100%;
     height: max-content;
     justify-content: space-around;
     padding-bottom: 20vh;
@@ -80,7 +80,7 @@ display: flex;
     justify-content: space-around;
     height: 26.5vw;
     margin-top: 4vw;
-    width: 100vw;
+    width: 100%;
     margin-top: 10vw;
     padding-bottom: 25vw;
   }

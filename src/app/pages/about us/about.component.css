@@ -1,9 +1,6 @@
-img{
+.banner img{
     width: 40vw;
-    min-height: max-content;
-   
-
-    
+    min-height: max-content;    
 }
 .banner{
 display: flex;
@@ -76,4 +73,8 @@ h1{
 
 .icon {
     font-size: 30px;
+}
+.cityimages{
+    width: 100%;
+    height:max-content;
 }

@@ -24,7 +24,7 @@ h2{
     background-image: url(src/assets/faqs/topbg.jpg);
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
 
 }
 section img{

@@ -82,13 +82,9 @@
                 margin-right:3vw ;
             }
             .cityimages img{
-                margin-left: 0;
-                padding-left: 0;
-                padding-bottom: 4px;
+                width: 100%;
+               padding: 0;
+               padding-bottom:10px ;
             }
            
-}
-.cityimages img{
-    width: 100%;
-    height:max-content;
 }
