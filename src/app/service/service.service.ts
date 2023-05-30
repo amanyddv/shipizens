@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient , HttpErrorResponse} from '@angular/common/http';
 
 
 
@@ -12,4 +12,11 @@ export class ServiceService {
   constructor(private http:HttpClient) { }
   send(contact:any){
     return this.http.post<any>(this.url+"contact",contact)  }
+ 
+  message:any;
+  clientRegistration(clientRegistrationDate:any){
+    
+    return this.http.post<any>("http://localhost:3000/register",clientRegistrationDate)
+  }
+
 }

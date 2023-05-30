@@ -16,7 +16,10 @@ import { FormsModule } from '@angular/forms';
 import { FaqsComponent } from './pages/faqs/faqs.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { AnimatedMessageComponent } from './components/animated-message/animated-message.component';
-
+import { UserRegistrationComponent } from './form/user-registration/user-registration.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,12 +33,16 @@ import { AnimatedMessageComponent } from './components/animated-message/animated
     FaqsComponent,
     SliderComponent,
     AnimatedMessageComponent,
+    UserRegistrationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule 
+    FormsModule,
+    BrowserAnimationsModule,
+    BsDatepickerModule.forRoot(),
+    ReactiveFormsModule,
   ],
   providers: [
     ServiceService

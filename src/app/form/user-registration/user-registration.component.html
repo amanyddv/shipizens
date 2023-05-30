@@ -1,0 +1,147 @@
+<section class=" pt-5">
+    
+    <div class="container py-5 h-100">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card shadow-2-strong card-registration" style="border-radius: 15px black;">
+                    <div class="card-body p-4 p-md-5">
+                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">User Registration Form</h3>
+                        <form [formGroup]="myReactiveForm" >
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="">
+                                        <input type="text" id="firstName" name="firstName" formControlName="firstName"class="form-control form-control-md" />
+                                        <label class="form-label" for="firstName">First Name*</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="">
+                                        <input type="text" id="lastName" name="lastName" formControlName="lastName"class="form-control form-control-md" />
+                                        <label class="form-label" for="lastName">Last Name</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                                    <div class=" datepicker w-100">
+                                        <input type="text" name="address" formControlName="address"class="form-control form-control-md" id="birthdayDate" />
+                                        <label for="address" class="form-label">Address*</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+
+                                    <h6 class="mb-2 pb-1">Gender: </h6>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="femaleGender" value="option1" checked />
+                                        <label class="form-check-label" for="femaleGender">Female</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="maleGender" value="option2" />
+                                        <label class="form-check-label" for="maleGender">Male</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="otherGender" value="option3" />
+                                        <label class="form-check-label" for="otherGender">Other</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4 pb-2">
+
+                                    <div class="">
+                                        <input type="email" name="email" formControlName="email" id="emailAddress" class="form-control form-control-md" />
+                                        <label class="form-label" for="emailAddress">Email*</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mb-4 pb-2">
+
+                                    <div class="">
+                                        <input type="tel" name="phoneNumber" formControlName="phoneNumber" id="phoneNumber" class="form-control form-control-md" />
+                                        <label class="form-label" for="phoneNumber">Phone Number*</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="">
+                                        <input type="text" id="Aadhar" name="aadhar" formControlName="aadhar"class="form-control form-control-md" />
+                                        <label class="form-label" for="Aadhar">Aadhar no.*</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="">
+                                        <input type="text" id="dateOfBirth" name="dateOfBirth" formControlName="dateOfBirth" class="form-control form-control-md" bsDatepicker>
+                                        <label class="form-label" for="DateOfBirth">Date Of Birth*</label>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="">
+                                        <input type="password" id="password" name="password" formControlName="password" class="form-control form-control-md" />
+                                        <label class="form-label" for="password">Password*</label>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6 mb-4">
+
+                                    <div class="">
+                                        <input type="password" id="confirmPassword" name="confirmPassword" formControlName="confirmPassword" class="form-control form-control-md" />
+                                        <label class="form-label" for="confirmPassword">Confirm Password*</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-2">
+                                <button class="btn btn-primary btn-success mb-5"  disabled="!message" (click)="submit()" type="submit" value="Submit" >Submit</button>
+                            </div>
+
+                        </form>
+                        <form *ngIf="message" >
+                            <div class="col-md-6 mb-2">
+
+                                <div class="">
+                                    <input  #otp type="text" id="onetimepassword" name="onetimepassword" formControlName="onetimepassword" class="form-control form-control-md" />
+                                    <label class="form-label" for="onetimepassword">OTP</label>
+                                </div>
+
+                            </div>
+                        
+                        <div class="mt-0 pt-2">
+                            <button class="btn btn-primary btn-success" (click)="sendOTP(otp.value)" type="submit" value="Submit" >Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
