@@ -23,9 +23,6 @@ export class HeaderComponent {
       this.isScrolled = false;
     }
   }
-  @HostListener('click') myClick(){
-    this.menuVisible = false;
-
-}
+ 
   
 }
