@@ -58,7 +58,7 @@ h1{
 }
 .about-developer ul{
     display: flex;
-}
+    padding-left: 0px;}
 .about-developer a{
     margin-right:1vw ;
 }

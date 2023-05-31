@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule ,CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,10 +20,13 @@ import { UserRegistrationComponent } from './form/user-registration/user-registr
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AlertModule }
-    from 'ngx-bootstrap/alert';
+import { AlertModule } from 'ngx-bootstrap/alert';
+
+
   
 @NgModule({
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -37,6 +40,7 @@ import { AlertModule }
     SliderComponent,
     AnimatedMessageComponent,
     UserRegistrationComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,7 @@ import { AlertModule }
     BrowserAnimationsModule,
     BsDatepickerModule.forRoot(),
     ReactiveFormsModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
 
   ],
   providers: [

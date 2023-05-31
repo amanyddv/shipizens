@@ -19,7 +19,7 @@ section{
 .about-company {
     margin: 4vw;
 }
-.about-company h1{
+.about-company h2{
     margin-bottom: 1vw;
 }
 .about-company p{
@@ -27,7 +27,8 @@ section{
 }
 .about-company ul{
 display: flex;
-justify-content: space-around;
+justify-content:space-evenly;
+padding-left: 0px;
 }
 
 .footer-link {
@@ -42,7 +43,7 @@ justify-content: space-around;
 .im1{
   width: 5vw;
   height: 5vw;
-  margin-right: 0.5vw;
+  margin: 0.1vw;
 }
 .image-row{
     display: flex;
