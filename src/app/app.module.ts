@@ -20,6 +20,9 @@ import { UserRegistrationComponent } from './form/user-registration/user-registr
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AlertModule }
+    from 'ngx-bootstrap/alert';
+  
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,6 +46,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     BsDatepickerModule.forRoot(),
     ReactiveFormsModule,
+    AlertModule.forRoot()
+
   ],
   providers: [
     ServiceService

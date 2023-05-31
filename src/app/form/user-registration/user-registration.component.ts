@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators, ValidatorFn, AbstractControl } from '@angular/forms';
 import { ServiceService } from 'src/app/service/service.service';
-import { HttpErrorResponse} from '@angular/common/http';
+import { HttpErrorResponse, HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -10,7 +10,7 @@ import { HttpErrorResponse} from '@angular/common/http';
   styleUrls: ['./user-registration.component.css']
 })
 export class UserRegistrationComponent {
-  constructor(private service:ServiceService){}
+  constructor(private service: ServiceService, private http: HttpClient) { }
 
   myReactiveForm!: FormGroup;
   ngOnInit() {
@@ -47,8 +47,8 @@ export class UserRegistrationComponent {
     }
     return null;
   }
-  message:any;
-  
+  message: any = "";
+
   submit() {
     console.log(this.myReactiveForm.value);
     if (this.myReactiveForm.valid) {
@@ -69,9 +69,35 @@ export class UserRegistrationComponent {
         }
       );
     }
-   
+
   }
-  sendOTP(otp:any){
-console.log(otp)
+
+  local = "http://localhost:7000/"
+  uri = "https://shipizens2api.vercel.app/"
+
+
+  invalid=false;
+  alertType='success';
+  sendOTP(otp: any) {
+    console.log(otp)
+    const payload = { email: this.myReactiveForm.value.email, otp: otp };
+
+    this.http.post<any>(this.uri + 'verify-otp', payload).subscribe(
+      (response: any) => {
+        this.message = response.message;
+        console.log(this.message)
+
+        if (this.message == "OTP verification successful") {
+          this.alertType='success'
+
+          alert(this.message)
+        }
+        else{
+          this.invalid=true;
+          this.alertType='danger'
+        }
+      }
+
+    )
   }
 }

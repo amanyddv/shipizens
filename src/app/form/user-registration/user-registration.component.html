@@ -1,4 +1,5 @@
 <section class=" pt-5">
+   
     
     <div class="container py-5 h-100">
         <div class="row justify-content-center align-items-center h-100">
@@ -121,14 +122,17 @@
                                 </div>
                             </div>
                             <div class="mt-4 pt-2">
-                                <button class="btn btn-primary btn-success mb-5"  disabled="!message" (click)="submit()" type="submit" value="Submit" >Submit</button>
+                                <button class="btn btn-primary btn-success mb-5"   (click)="submit()" type="submit" value="Submit" >Submit</button>
                             </div>
 
                         </form>
                         <form *ngIf="message" >
+                            <alert *ngIf="invalid" class="alertOTP mb-0" [type]="alertType">{{message}}</alert>
+
                             <div class="col-md-6 mb-2">
 
                                 <div class="">
+
                                     <input  #otp type="text" id="onetimepassword" name="onetimepassword" formControlName="onetimepassword" class="form-control form-control-md" />
                                     <label class="form-label" for="onetimepassword">OTP</label>
                                 </div>

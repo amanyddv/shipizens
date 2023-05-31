@@ -8,6 +8,7 @@ import { HttpClient , HttpErrorResponse} from '@angular/common/http';
 export class ServiceService {
   local = "http://localhost:7000/"
   url = "https://shipizens-api.vercel.app/"
+  uri="https://shipizens2api.vercel.app/"
 
   constructor(private http:HttpClient) { }
   send(contact:any){
@@ -16,7 +17,8 @@ export class ServiceService {
   message:any;
   clientRegistration(clientRegistrationDate:any){
     
-    return this.http.post<any>("http://localhost:3000/register",clientRegistrationDate)
+    return this.http.post<any>(this.url+"register",clientRegistrationDate)
   }
+
 
 }
