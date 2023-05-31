@@ -12,12 +12,12 @@ export class ServiceService {
 
   constructor(private http:HttpClient) { }
   send(contact:any){
-    return this.http.post<any>(this.url+"contact",contact)  }
+    return this.http.post<any>(this.uri+"contact",contact)  }
  
   message:any;
   clientRegistration(clientRegistrationDate:any){
     
-    return this.http.post<any>(this.url+"register",clientRegistrationDate)
+    return this.http.post<any>(this.uri+"register",clientRegistrationDate)
   }
 
 
