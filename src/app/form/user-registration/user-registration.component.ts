@@ -19,6 +19,7 @@ export class UserRegistrationComponent {
       'lastName': new FormControl(null, Validators.required),
       'address': new FormControl(null, Validators.required),
       'phoneNumber': new FormControl(null, Validators.required),
+      'gender': new FormControl(null, Validators.required),
       'aadhar': new FormControl(null, Validators.required),
       'dateOfBirth': new FormControl(null, Validators.required),
       'email': new FormControl(null, [Validators.required, Validators.email]),
@@ -82,15 +83,16 @@ export class UserRegistrationComponent {
     console.log(otp)
     const payload = { email: this.myReactiveForm.value.email, otp: otp };
 
-    this.http.post<any>(this.uri + 'verify-otp', payload).subscribe(
+    this.http.post<any>(this.local + 'verify-otp', payload).subscribe(
       (response: any) => {
         this.message = response.message;
         console.log(this.message)
 
         if (this.message == "OTP verification successful") {
           this.alertType='success'
+          this.invalid=true;
 
-          alert(this.message)
+
         }
         else{
           this.invalid=true;
