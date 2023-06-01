@@ -16,10 +16,10 @@
       Register/Login 
     </a>
     <ul id="dropdown-nested" *dropdownMenu class="dropdown-menu " role="menu" aria-labelledby="button-nested">
-      <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Login</a></li>
+      <li role="menuitem"><a class="dropdown-item bg-white" routerLink="." fragment="nested-dropdowns">Login</a></li>
 
       <li role="menuitem" dropdown triggers="mouseover"  placement="right" container="body">
-        <a dropdownToggle class="dropdown-item dropdown-toggle" (click)="false">Registration</a>
+        <a dropdownToggle class="dropdown-item bg-white dropdown-toggle" (click)="false">Registration</a>
         <ul *dropdownMenu class="dropdown-menu" role="menu">
           <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Personal Shipment</a></li>
           <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Merchant</a></li>
@@ -30,8 +30,6 @@
     </ul>
     </li>
   </ng-container>
-
-
 
 
 
