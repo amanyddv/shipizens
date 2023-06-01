@@ -17,7 +17,7 @@ export class ServiceService {
   message:any;
   clientRegistration(clientRegistrationDate:any){
     
-    return this.http.post<any>(this.local+"register",clientRegistrationDate)
+    return this.http.post<any>(this.local+"userRegistraion",clientRegistrationDate)
   }
 
 
