@@ -83,7 +83,7 @@ export class UserRegistrationComponent {
     console.log(otp)
     const payload = { email: this.myReactiveForm.value.email, otp: otp };
 
-    this.http.post<any>(this.local + 'verify-otp', payload).subscribe(
+    this.http.post<any>(this.uri + 'verify-otp', payload).subscribe(
       (response: any) => {
         this.message = response.message;
         console.log(this.message)
