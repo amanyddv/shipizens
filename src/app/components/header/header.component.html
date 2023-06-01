@@ -50,14 +50,14 @@
 
        
     <ng-container >
-      <li class=""dropdown triggers="mouseover"  dropdown [autoClose]="false" placement="left" container="body">
+      <li class=""dropdown  dropdown [autoClose]="false" placement="left" container="body">
       <a id="button-nested" dropdownToggle class=" " aria-controls="dropdown-nested">
         Register/Login 
       </a>
       <ul style="z-index: 2;left: -176px;"id="dropdown-nested" *dropdownMenu class="dropdown-menu " role="menu" aria-labelledby="button-nested">
         <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Login</a></li>
   
-        <li role="menuitem" dropdown triggers="mouseover"  placement="right" container="body">
+        <li role="menuitem" dropdown   placement="right" container="body">
           <a dropdownToggle class="dropdown-item dropdown-toggle" (click)="false">Registration</a>
           <ul style="top: 22px;
           left: -163px;" *dropdownMenu class="dropdown-menu" role="menu">
