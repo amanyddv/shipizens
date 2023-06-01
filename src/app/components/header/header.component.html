@@ -1,24 +1,85 @@
-<nav  [class.navbar-scrolled]="isScrolled"><div class="logo-section"> <div>   
-    <h1 style="color:#3F6AA5; display: inline-block;">SHIPI</h1>
-    <h1 style="color: #ff7b00; display: inline-block;">ZENS</h1>
-  </div>
+<nav [class.navbar-scrolled]="isScrolled">
+  <div class="logo-section">
+    <div>
+      <h1 style="color:#3F6AA5; display: inline-block;">SHIPI</h1>
+      <h1 style="color: #ff7b00; display: inline-block;">ZENS</h1>
+    </div>
   </div>
   <ul class="nav-option">
     <li><a routerLink="">Home</a></li>
-   <li> <a routerLink="Service">Our service</a></li>
-   <li><a routerLink="Faqs">FAQs</a></li>
-   <li><a routerLink="ur">Register</a></li>
+    <li> <a routerLink="Service">Our service</a></li>
+    <li><a routerLink="Faqs">FAQs</a></li>
+
+    <ng-container >
+    <li class=""dropdown triggers="mouseover"  dropdown [autoClose]="false" container="body">
+    <a id="button-nested" dropdownToggle class=" " aria-controls="dropdown-nested">
+      Register/Login 
+    </a>
+    <ul id="dropdown-nested" *dropdownMenu class="dropdown-menu " role="menu" aria-labelledby="button-nested">
+      <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Login</a></li>
+
+      <li role="menuitem" dropdown triggers="mouseover"  placement="right" container="body">
+        <a dropdownToggle class="dropdown-item dropdown-toggle" (click)="false">Registration</a>
+        <ul *dropdownMenu class="dropdown-menu" role="menu">
+          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Personal Shipment</a></li>
+          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Merchant</a></li>
+          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Self-Driver</a></li>
+          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Service Provider</a></li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+  </ng-container>
+
+
+
+
 
     <li><a routerLink="About">About us</a></li>
     <li><a routerLink="Contact">Contact us</a></li>
   </ul>
-  
-  <img src="assets/header/controls.png" class="toggle" alt="Menu"  (click)="toggleMenu()" [attr.aria-expanded]="menuVisible ? 'true' : 'false'" aria-controls="menu">
+
+  <img src="assets/header/controls.png" class="toggle" alt="Menu" (click)="toggleMenu()"
+    [attr.aria-expanded]="menuVisible ? 'true' : 'false'" aria-controls="menu">
   <ul id="menu" [hidden]="!menuVisible">
     <li><a routerLink="/" (click)="toggleMenu()">Home</a></li>
     <li><a routerLink="Service" (click)="toggleMenu()">Our service</a></li>
     <li><a routerLink="Faqs" (click)="toggleMenu()">FAQs</a></li>
-    <li><a routerLink="ur" (click)="toggleMenu()">Register</a></li>
+
+
+
+       
+    <ng-container >
+      <li class=""dropdown triggers="mouseover"  dropdown [autoClose]="false" placement="left" container="body">
+      <a id="button-nested" dropdownToggle class=" " aria-controls="dropdown-nested">
+        Register/Login 
+      </a>
+      <ul style="z-index: 2;left: -176px;"id="dropdown-nested" *dropdownMenu class="dropdown-menu " role="menu" aria-labelledby="button-nested">
+        <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Login</a></li>
+  
+        <li role="menuitem" dropdown triggers="mouseover"  placement="right" container="body">
+          <a dropdownToggle class="dropdown-item dropdown-toggle" (click)="false">Registration</a>
+          <ul style="top: 22px;
+          left: -163px;" *dropdownMenu class="dropdown-menu" role="menu">
+            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Personal Shipment</a></li>
+            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Merchant</a></li>
+            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Self-Driver</a></li>
+            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Service Provider</a></li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+    </ng-container>
+  
+  
+  
+
+
+
+
+
+
+
 
     <li><a routerLink="About" (click)="toggleMenu()">About us</a></li>
     <li><a routerLink="Contact" (click)="toggleMenu()">Contact us</a></li>

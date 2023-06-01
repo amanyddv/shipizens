@@ -21,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AlertModule } from 'ngx-bootstrap/alert';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 
   
@@ -51,6 +52,8 @@ import { AlertModule } from 'ngx-bootstrap/alert';
     BsDatepickerModule.forRoot(),
     ReactiveFormsModule,
     AlertModule.forRoot(),
+    BsDropdownModule.forRoot()
+
 
   ],
   providers: [
