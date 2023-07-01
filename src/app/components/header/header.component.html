@@ -10,26 +10,8 @@
     <li> <a routerLink="Service">Our service</a></li>
     <li><a routerLink="Faqs">FAQs</a></li>
 
-    <ng-container >
-    <li class=""dropdown triggers="mouseover"  dropdown [autoClose]="false" container="body">
-    <a id="button-nested" dropdownToggle class=" " aria-controls="dropdown-nested">
-      Login/Register
-    </a>
-    <ul id="dropdown-nested" *dropdownMenu class="dropdown-menu " role="menu" aria-labelledby="button-nested">
-      <li role="menuitem"><a class="dropdown-item bg-white" routerLink="." fragment="nested-dropdowns">Login</a></li>
-
-      <li role="menuitem" dropdown triggers="mouseover"  placement="right" container="body">
-        <a dropdownToggle class="dropdown-item bg-white dropdown-toggle" (click)="false">Registration</a>
-        <ul *dropdownMenu class="dropdown-menu" role="menu">
-          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Personal Shipment</a></li>
-          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Merchant</a></li>
-          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Self-Driver</a></li>
-          <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Service Provider</a></li>
-        </ul>
-      </li>
-    </ul>
-    </li>
-  </ng-container>
+    <li><a routerLink="Login">Login</a></li>
+    <li><a routerLink="Register">Register</a></li>
 
 
 
@@ -47,27 +29,8 @@
 
 
        
-    <ng-container >
-      <li class=""dropdown  dropdown [autoClose]="false" placement="left" container="body">
-      <a id="button-nested" dropdownToggle class=" " aria-controls="dropdown-nested">
-        Login/Register      </a>
-      <ul style="z-index: 2;left: -176px;"id="dropdown-nested" *dropdownMenu class="dropdown-menu " role="menu" aria-labelledby="button-nested">
-        <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Login</a></li>
-  
-        <li role="menuitem" dropdown   placement="right" container="body">
-          <a dropdownToggle class="dropdown-item dropdown-toggle" (click)="false">Registration</a>
-          <ul style="top: 22px;
-          left: -163px;" *dropdownMenu class="dropdown-menu" role="menu">
-            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Personal Shipment</a></li>
-            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Merchant</a></li>
-            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Self-Driver</a></li>
-            <li role="menuitem"><a class="dropdown-item" routerLink="." fragment="nested-dropdowns">Service Provider</a></li>
-          </ul>
-        </li>
-      </ul>
-      </li>
-    </ng-container>
-  
+    <li><a routerLink="Login">Login</a></li>
+    <li><a routerLink="Register">Register</a></li>
   
   
 

@@ -6,6 +6,8 @@ import { ServiceComponent } from './pages/our service/service.component';
 import { ContactComponent } from './pages/contact us/contact.component';
 import { FaqsComponent } from './pages/faqs/faqs.component';
 import { UserRegistrationComponent } from './form/user-registration/user-registration.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegistrationComponent } from './pages/registration/registration.component';
 
 const routes: Routes = [
 
@@ -14,7 +16,9 @@ const routes: Routes = [
   { path:'Faqs',component:FaqsComponent},
   {path:'About',component:AboutComponent},
   {path:'Contact',component:ContactComponent},
-  {path:'ur',component:UserRegistrationComponent},
+  {path:'Login',component:LoginComponent},
+  {path:'Register',component:RegistrationComponent},
+  { path: 'Register/:value', component: UserRegistrationComponent },
 
 
 ];

@@ -6,7 +6,7 @@
             <div class="col-12 col-lg-9 col-xl-7">
                 <div class="card shadow-2-strong card-registration" style="border-radius: 15px black;">
                     <div class="card-body p-4 p-md-5">
-                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">User Registration Form</h3>
+                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">{{userType}} Registration Form</h3>
                         <form [formGroup]="myReactiveForm" >
 
                             <div class="row">
@@ -85,8 +85,8 @@
                                 <div class="col-md-6 mb-4">
 
                                     <div class="">
-                                        <input type="text" id="Aadhar" name="aadhar" formControlName="aadhar"class="form-control form-control-md" />
-                                        <label class="form-label" for="Aadhar">Aadhar no.*</label>
+                                        <input type="text" id="pinCode" name="pinCode" formControlName="pinCode" class="form-control form-control-md" />
+                                        <label class="form-label" for="pinCode">Pin code *</label>
                                     </div>
 
                                 </div>

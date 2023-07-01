@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators, ValidatorFn, AbstractControl } from '@angular/forms';
 import { ServiceService } from 'src/app/service/service.service';
 import { HttpErrorResponse, HttpClient } from '@angular/common/http';
-
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-user-registration',
@@ -10,17 +10,26 @@ import { HttpErrorResponse, HttpClient } from '@angular/common/http';
   styleUrls: ['./user-registration.component.css']
 })
 export class UserRegistrationComponent {
-  constructor(private service: ServiceService, private http: HttpClient) { }
+  userType: any;
+
+ 
+  constructor(private service: ServiceService, private http: HttpClient ,private route: ActivatedRoute) { }
 
   myReactiveForm!: FormGroup;
   ngOnInit() {
+
+    this.route.paramMap.subscribe(params => {
+      this.userType = params.get('value');
+    });
+
     this.myReactiveForm = new FormGroup({
+      'userType': new FormControl(this.userType),
       'firstName': new FormControl(null, Validators.required),
       'lastName': new FormControl(null, Validators.required),
       'address': new FormControl(null, Validators.required),
       'phoneNumber': new FormControl(null, Validators.required),
       'gender': new FormControl(null, Validators.required),
-      'aadhar': new FormControl(null, Validators.required),
+      'pinCode': new FormControl(null, Validators.required),
       'dateOfBirth': new FormControl(null, Validators.required),
       'email': new FormControl(null, [Validators.required, Validators.email]),
       'password': new FormControl(null, [
@@ -74,7 +83,7 @@ export class UserRegistrationComponent {
   }
 
   local = "http://localhost:7000/"
-  uri = "https://shipizens2api.vercel.app/"
+  uri = "https://temp-shipizensapi.vercel.app/"
 
 
   invalid=false;
