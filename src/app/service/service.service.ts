@@ -7,9 +7,9 @@ import { Router } from '@angular/router';
 @Injectable({ providedIn: 'root'})
 
 export class ServiceService {
-  local = "http://localhost:7000/"
-  url = "https://shipizens-api.vercel.app/"
-  uri="https://temp-shipizensapi.vercel.app/"
+  // local = "http://localhost:7000/"
+  // url = "https://shipizens-api.vercel.app/"
+  local="https://temp-shipizensapi.vercel.app/"
 
   constructor(private http:HttpClient,private router:Router) { }
 

@@ -84,8 +84,8 @@ export class UserRegistrationComponent {
 
   }
 
-  local = "http://localhost:7000/"
-  uri = "https://temp-shipizensapi.vercel.app/"
+  // local = "http://localhost:7000/"
+  local = "https://temp-shipizensapi.vercel.app/"
 
 
   invalid=false;
