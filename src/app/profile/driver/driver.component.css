@@ -1,0 +1,44 @@
+.sidebar{
+    background-color: rgb(57, 57, 160);
+    width: 15em;
+    height: 340px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .section{
+    padding-top: 60px;
+  }
+
+  .userDetailLabel{
+    color: rgb(144, 145, 147);
+  }
+  .nav-link::after {
+    content: '\203A'; /* Unicode character for right arrow */
+    float: right;
+    font-weight: bold;
+  }
+  .sidebar>ul{
+      margin-top:25%;
+      line-height: 30px;
+      font-weight: bold;
+  }
+  ul>li{
+      font-size: large;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+.sidebarBox{
+    width: 22%;
+}
+.merchant--detail{
+    height: 300px;
+    background-color: rgb(215, 215, 232);
+    border-radius: 10px;
+}
+.profile--progress{
+    height: 300px;
+    background-color: rgb(215, 215, 232);
+    border-radius: 10px;
+}

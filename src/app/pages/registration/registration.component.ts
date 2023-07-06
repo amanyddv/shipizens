@@ -16,5 +16,6 @@ export class RegistrationComponent {
   next(){
     console.log(this.userType)
     this.router.navigate(['/Register', this.userType]);
+
   }
 }

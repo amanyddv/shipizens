@@ -8,6 +8,10 @@ import { FaqsComponent } from './pages/faqs/faqs.component';
 import { UserRegistrationComponent } from './form/user-registration/user-registration.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
+import { ProfileComponent } from './profile/merchant/profile.component';
+import { PersonalComponent } from './profile/personal/personal.component';
+import { DriverComponent } from './profile/driver/driver.component';
+import { TranspoterComponent } from './profile/transpoter/transpoter.component';
 
 const routes: Routes = [
 
@@ -19,6 +23,10 @@ const routes: Routes = [
   {path:'Login',component:LoginComponent},
   {path:'Register',component:RegistrationComponent},
   { path: 'Register/:value', component: UserRegistrationComponent },
+  {path:'Merchant',component:ProfileComponent}, //it is for merchant
+  {path:'Personal',component:PersonalComponent},
+  {path:'Driver',component:DriverComponent},
+  {path:'Transpoter',component:TranspoterComponent},
 
 
 ];

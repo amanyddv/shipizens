@@ -24,7 +24,11 @@ import { AlertModule } from 'ngx-bootstrap/alert';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
-
+import { ProfileComponent } from './profile/merchant/profile.component';
+import { PersonalComponent } from './profile/personal/personal.component';
+import { DriverComponent } from './profile/driver/driver.component';
+import { TranspoterComponent } from './profile/transpoter/transpoter.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
   
 @NgModule({
@@ -45,6 +49,11 @@ import { RegistrationComponent } from './pages/registration/registration.compone
     UserRegistrationComponent,
     LoginComponent,
     RegistrationComponent,
+    ProfileComponent,
+    PersonalComponent,
+    DriverComponent,
+    PersonalComponent,
+    SidebarComponent,
 
   ],
   imports: [

@@ -1,0 +1,72 @@
+<div class="row justify-content-center   form  h-100">
+    <div class="col-10 col-lg-4 col-xl-4 col-md-6">
+        <form  (ngSubmit)="Submit(myForm.value)" #myForm="ngForm" >
+            
+                <label for="">Choose your type</label>
+                <br>
+                <div class="form-check form-check-inline py-1 ">
+                    <input class="form-check-input" type="radio"  name="userType" [(ngModel)]="userType"
+                        value="Personal" id="personal" checked />
+                    <label class="form-check-label" for="personal">Personal</label>
+                </div>
+                <br>
+
+                <div class="form-check form-check-inline py-1">
+                    <input class="form-check-input" type="radio"  name="userType" [(ngModel)]="userType"
+                        value="Merchant" id="merchant" />
+                    <label class="form-check-label" for="merchant">Merchant</label>
+                </div>
+                <br>
+                <div class="form-check form-check-inline py-1">
+                    <input class="form-check-input" type="radio"  name="userType" [(ngModel)]="userType"
+                        value="Transpoter" id="transpoter" />
+                    <label class="form-check-label" for="transpoter">Transpoter</label>
+                </div>
+                <br>
+                <div class="form-check form-check-inline py-1 mb-4">
+                    <input class="form-check-input" type="radio"  name="userType" [(ngModel)]="userType"
+                        value="Driver" id="diver" />
+                    <label class="form-check-label" for="diver">Driver</label>
+                </div>
+
+
+            <!-- Email input -->
+            <div class=" mb-4">
+                <input type="email"  class="form-control" name="name" ngModel  required placeholder="email or username"/>
+
+            </div>
+
+            <!-- Password input form-outline-->
+            <div class=" mb-4">
+                <input type="password" name="password" class="form-control" ngModel  required  placeholder="password" />
+            </div>
+            
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <!-- Simple link -->
+                    <a href="#!">Forgot password?</a>
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="button" type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+            <!-- Register buttons -->
+            <div class="text-center">
+                <p>Not a member? <a routerLink="../Register">Register</a></p>
+
+
+
+            </div>
+        </form>
+    </div>
+</div>

@@ -3,6 +3,7 @@ import { FormControl, FormGroup, Validators, ValidatorFn, AbstractControl } from
 import { ServiceService } from 'src/app/service/service.service';
 import { HttpErrorResponse, HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-user-registration',
@@ -13,7 +14,8 @@ export class UserRegistrationComponent {
   userType: any;
 
  
-  constructor(private service: ServiceService, private http: HttpClient ,private route: ActivatedRoute) { }
+  constructor(private service: ServiceService, private http: HttpClient ,private route: ActivatedRoute,private router: Router) { }
+  
 
   myReactiveForm!: FormGroup;
   ngOnInit() {
@@ -92,7 +94,7 @@ export class UserRegistrationComponent {
     console.log(otp)
     const payload = { email: this.myReactiveForm.value.email, otp: otp };
 
-    this.http.post<any>(this.uri + 'verify-otp', payload).subscribe(
+    this.http.post<any>(this.local + 'verify-otp', payload).subscribe(
       (response: any) => {
         this.message = response.message;
         console.log(this.message)
@@ -100,6 +102,11 @@ export class UserRegistrationComponent {
         if (this.message == "OTP verification successful") {
           this.alertType='success'
           this.invalid=true;
+          console.log(response)
+          
+           this.router.navigate(['/'+this.userType]);
+           this.service.setSharedValue(response);
+
 
 
         }
